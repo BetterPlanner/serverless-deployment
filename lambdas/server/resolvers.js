@@ -39,9 +39,7 @@ const resolvers = {
       return course;
     },
     getCourse: async (_, args, { models: { Course } }) => {
-      console.log("ali");
       const { search = null } = args;
-      console.log(search);
 
       let searchQuery = {};
 
