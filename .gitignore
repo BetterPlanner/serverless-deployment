@@ -1,0 +1,14 @@
+__pycache__/
+nohup.out
+log
+/.idea
+._app.py/
+._necessary_for.py/
+._parse_cobalt.py/
+.DS_Store
+templates/.*
+dist/
+node_modules/
+functions/
+.netlify/
+netlify.toml
