@@ -1,0 +1,6 @@
+query getCourse($search: String!) {
+    getCourse(search: $search) {
+        code
+        name
+    }
+}
